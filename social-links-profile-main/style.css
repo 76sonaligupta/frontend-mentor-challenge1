@@ -1,0 +1,92 @@
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+
+}
+p {
+    font-size: 13px;
+    line-height:normal;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-weight:700;
+
+}
+.containt p{
+    margin:6px;
+    line-height: normal;
+    font-weight: 400;
+}
+.login-page .main-container {
+    border-radius: 10px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    line-height: 0.1rem;
+    padding: 30px;
+    position: fixed; /* Adjust position according to your needs */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-page .main-container p{
+color: hsl(75, 94%, 57%);
+font-weight: 600;
+line-height: normal;
+
+}
+form.login-form input {
+    text-align: center;
+    background: hsl(0, 0%, 20%);
+    padding: 10px 0px;
+    width: 270px;
+    border-radius: 5px;
+    margin: 7px;
+    border: 0;
+    cursor: pointer;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+
+
+}
+form.login-form input:focus{
+    text-decoration: none;
+}
+form.login-form input:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+form.login-form input:hover{
+    color: black;
+}
+.image img {
+    width: 75px;
+    height: 75px;
+    border-radius: 200px;
+}
+
+.heading {
+    margin-top: 22px;
+    margin-bottom: 24px;
+}
+.containt{
+    line-height: 3;
+}
+@media(max-width:540px){
+    .login-page .main-container {
+        width: 75%;
+       
+    }
+    form.login-form input {
+        width:100%;
+    }
+
+
+}
